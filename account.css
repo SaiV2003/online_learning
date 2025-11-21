@@ -1,0 +1,98 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.settings-container {
+  width: 90%;
+  max-width: 600px;
+  background: #fff;
+  margin: 60px auto;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+h2 i {
+  color: #2575fc;
+  margin-right: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #444;
+}
+ .btn{
+    border-radius: 30px;
+    color:white;
+  }
+
+input, textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+input:focus, textarea:focus {
+  border-color: #2575fc;
+  outline: none;
+  box-shadow: 0 0 5px rgba(37, 117, 252, 0.4);
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.save-btn, .cancel-btn {
+  flex: 1;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.save-btn {
+  background-color: #2575fc;
+  margin-right: 10px;
+}
+
+.cancel-btn {
+  background-color: #888;
+}
+
+.save-btn:hover {
+  background-color: #1b5fd1;
+}
+
+.cancel-btn:hover {
+  background-color: #666;
+}
+
